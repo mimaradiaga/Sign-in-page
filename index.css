@@ -58,3 +58,12 @@ body {
  .space {
   margin-bottom: 50px;
  }
+
+.button {
+    padding: 10px;
+    background-color: #013243;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+
+}
