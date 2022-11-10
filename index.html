@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Sign up</title>
 </head>
 
@@ -16,17 +16,19 @@
     <main class="contenedor1">
         <div class="phone-container">
             <h1>Gradie</h1>
-            <p>Beautiful gradients in seconds </p>
+            <p class="font-color">Beautiful gradients in seconds </p>
         </div>
         <form class="label-container">
-            <h1 class="block">Log in</h1>
-            <label for="text" class="block">Email</label>
-            <input type="text" class="block" placeholder="john@example.com">
+            <h1>Log in</h1>
+            <label for="Email" class="block">Email</label>
+            <input type="email" class="label" placeholder="john@example.com">
             <label for="text" class="block">Password</label>
-            <input type="text" class="block" placeholder="At least 8 characters">
-            <input type="checkbox" name="terminos">
-            <label for="terminos" class="space">By creating an account you agree to the Terms & conditions</label>
-            <input type="submit" class="button"  value="Create an Account">
+            <input type="text" class="label" placeholder="At least 8 characters">
+            <label for="terminos" class="space">
+                <input type="checkbox" name="terminos">
+                By creating an account, you agree to the <u>Terms & conditions</u> 
+            </label>
+           <input type="submit" class="button"  value="Create an Account">
         </form>
     </main>
 </body>

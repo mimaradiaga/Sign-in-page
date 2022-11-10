@@ -7,7 +7,7 @@ body {
   background-image: url('./images/Background.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  font-family: 'Catamaran', sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 
 .contenedor1 {
@@ -21,15 +21,15 @@ body {
 }
 
 .phone-container {
-    width: 20%;
-    height: 40%;
+    width: 15%;
+    height: 35%;
     background-color: #013243;
     color: white;
     padding: 30px;
     background-image: url('./images/iPhone-Mockup.png');
     background-size:contain;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 70%;
 }
 
 .phone-container img {
@@ -38,26 +38,29 @@ body {
  
 
 .label-container {
-    width: 20%;
-    height: 40%;
-    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 15%;
+    height: 35%;
+    background-color: #ffffff;
     padding: 30px;
 
 }
 
-.block {
-    display: block;
-    margin-bottom: 10px;
-    
-    
+.label-container label {
+    align-self: flex-start;
 }
 
-.label-container label {
-    font-weight: bold;
+.block {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    font-weight:bolder;
 }
- .space {
-  margin-bottom: 50px;
- }
+
+
 
 .button {
     padding: 10px;
@@ -65,5 +68,48 @@ body {
     color: whitesmoke;
     border: none;
     border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+  
 
 }
+
+.space {
+    font-size: smaller;
+    margin-top: 15px;
+    
+
+}
+
+.space u {
+    color: #013243;
+    font-weight: bolder;
+}
+
+.font-color {
+    color: #6BA6B8;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.phone-container h1,p {
+text-align: center;    
+}
+
+.label {
+    width: 100%;
+    padding: 15px;
+}
+
+.button-2 {
+text-align: center;
+}
+
+@media screen and (max-width: 800px)
+ {
+  body {
+    background-image: url('./images/Background.png');
+    background-repeat: repeat;
+  }
+ }
