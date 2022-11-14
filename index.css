@@ -117,7 +117,7 @@ p {
 
  }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
     body {
 
@@ -153,7 +153,7 @@ p {
 
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:500px) {
 
     body {
         background-image: none;
